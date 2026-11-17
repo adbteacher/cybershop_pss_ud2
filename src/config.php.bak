@@ -1,0 +1,12 @@
+<?php
+// Backup antiguo dejado en el servidor tras un despliegue - v1.2
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+define('DB_HOST', 'db');
+define('DB_NAME', 'tienda');
+define('DB_USER', 'tienda_user');
+define('DB_PASS', 'tienda_pass123');
+
+// TODO: rotar credenciales antes de pasar a produccion
+session_start();

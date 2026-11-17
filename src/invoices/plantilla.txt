@@ -1,0 +1,7 @@
+=================================
+        CyberShop - Factura
+=================================
+Gracias por tu compra en CyberShop.
+Este es un documento de ejemplo generado por el sistema de facturacion.
+Para consultar el detalle de tu pedido, visita "Mis pedidos" en tu cuenta.
+=================================
