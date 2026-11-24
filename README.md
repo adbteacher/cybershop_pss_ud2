@@ -47,7 +47,6 @@ docker compose up --build
 
 | Usuario | Contraseña | Rol   |
 |---------|-----------|-------|
-| admin   | admin123  | Administrador |
 | lucia   | lucia2024 | Cliente |
 | marcos  | marcos2024| Cliente |
 
