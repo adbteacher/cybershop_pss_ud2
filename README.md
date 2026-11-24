@@ -64,9 +64,7 @@ docker compose up --build
 
 - `src/` — código fuente de la aplicación vulnerable (lo que verán y auditarán los alumnos).
   El frontend está pensado para parecer una tienda online real (categorías, valoraciones,
-  banners, footer corporativo, aviso legal en `src/legal.php`), pero **cada endpoint y cada
-  vulnerabilidad descrita en `walkthrough.md` se mantiene exactamente igual**: solo cambia la
-  presentación, no la lógica ni los nombres de campo/formulario.
+  banners, footer corporativo, aviso legal en `src/legal.php`).
 - `db/init.sql` — esquema y datos de partida (catálogo, usuarios, opiniones y pedidos de
   ejemplo ampliados para dar volumen realista; los 5 primeros productos y los 3 primeros
   usuarios mantienen id/orden exactos por compatibilidad con `walkthrough.md`).
