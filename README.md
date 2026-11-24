@@ -80,12 +80,12 @@ de 2025 y los fallos presentes en el laboratorio:
 | Categoría OWASP Top 10:2025 | Fallos del laboratorio |
 |---|---|
 | A01:2025 Broken Access Control | IDOR, path traversal, funciones de administración sin control de acceso, CSRF, SSRF (integrado en A01 desde 2025) |
-| A02:2025 Security Misconfiguration | Ficheros sensibles expuestos, `phpinfo()`, listado de directorios, XXE |
-| A03:2025 Software Supply Chain Failures | jQuery desactualizado cargado desde CDN sin SRI |
+| A02:2025 Security Misconfiguration | Ficheros sensibles expuestos, listado de directorios, XXE |
+| A03:2025 Software Supply Chain Failures | jQuery desactualizado |
 | A04:2025 Cryptographic Failures | Hashes MD5 sin sal, tarjetas en texto plano |
 | A05:2025 Injection | SQLi, XSS (almacenado, reflejado y DOM), inyección de comandos |
 | A06:2025 Insecure Design | Manipulación de precios, token de recuperación predecible, subida de ficheros sin restricciones |
 | A07:2025 Authentication Failures | Credenciales por defecto, sin protección frente a fuerza bruta, fijación de sesión, política de contraseñas débil |
-| A08:2025 Software or Data Integrity Failures | Deserialización insegura de la cookie "remember me" |
+| A08:2025 Software or Data Integrity Failures | Deserialización insegura|
 | A09:2025 Security Logging and Alerting Failures | Ausencia de registro y alertas (transversal) |
 | A10:2025 Mishandling of Exceptional Conditions | Errores SQL y mensajes de error detallados mostrados al usuario |
