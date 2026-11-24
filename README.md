@@ -66,8 +66,7 @@ docker compose up --build
   El frontend está pensado para parecer una tienda online real (categorías, valoraciones,
   banners, footer corporativo, aviso legal en `src/legal.php`).
 - `db/init.sql` — esquema y datos de partida (catálogo, usuarios, opiniones y pedidos de
-  ejemplo ampliados para dar volumen realista; los 5 primeros productos y los 3 primeros
-  usuarios mantienen id/orden exactos por compatibilidad con `walkthrough.md`).
+  ejemplo ampliados para dar volumen realista).
 - `internal/` — micro-servicio interno usado como objetivo de la práctica de SSRF.
 
 ## Cobertura OWASP Top Ten
